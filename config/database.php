@@ -1,8 +1,8 @@
 <?php
     try
     {
-        $dbname = 'framework';
-        $db = new PDO("mysql:host=localhost;dbname=$dbname;charset=utf8", "root", "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
+        require('../config/config.php');
+        $db = new PDO("mysql:host=$dbhost;dbname=$dbname;charset=utf8", "$dbuser", "$dbpass", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
     }
     catch(PDOException $e)
     {

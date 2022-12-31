@@ -1,9 +1,7 @@
+document.getElementById("html").style.backgroundColor = '#d926a9';
 const loader = document.getElementById('loader');
-setTimeout(() => {
+window.addEventListener('load', () => {
     loader.classList.add('none');
-}, 2000);
-
-const redirectionDoc = document.getElementById('redirection-doc');
-redirectionDoc.addEventListener('click', () => {
-    window.location.href = "/documentation";
 });
+
+document.getElementById("footer").classList.add('hidden');

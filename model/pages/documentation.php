@@ -1,3 +1,6 @@
+<?php
+$scripts = ['./js/documentation.js'];
+?>
 <div class="flex justify-center m-10">
   <div class="tabs centered">
     <a id="first-page" class="tab tab-bordered tab-active">Créer la première page</a><!-- Create the first page -->
@@ -54,9 +57,9 @@
       </ul>
     </div>
     <pre data-prefix="1"><code class="text-info">case '<code class="text-success">/new-page</code>' :</code></pre>
-    <pre data-prefix="2"><code><code class="text-info">$</code>titleDocument <code class="text-info">= "</code><code class="text-success">New Page</code><code class="text-info">";</code></code></pre>
-    <pre data-prefix="3"><code><code class="text-info">$</code>content <code class="text-info">= "</code><code class="text-success">../model/pages/new-page.php</code><code class="text-info">";</code></code></pre>
-    <pre data-prefix="4"><code class="text-info"> break;</code></pre>
+    <pre data-prefix="2"><code>&nbsp;&nbsp;&nbsp;&nbsp;<code class="text-info">$</code>titleDocument <code class="text-info">= "</code><code class="text-success">New Page</code><code class="text-info">";</code></code></pre>
+    <pre data-prefix="3"><code>&nbsp;&nbsp;&nbsp;&nbsp;<code class="text-info">$</code>content <code class="text-info">= "</code><code class="text-success">../model/pages/new-page.php</code><code class="text-info">";</code></code></pre>
+    <pre data-prefix="4"><code class="text-info">&nbsp;&nbsp;&nbsp;&nbsp;break;</code></pre>
   </div>
   <p class="ml-10">Créer un controller lier à la page (voir ci-dessous pour le chemin)</p>
   <div class="text-sm breadcrumbs bg-breadcrumbs rounded-md m-5">

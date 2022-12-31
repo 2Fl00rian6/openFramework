@@ -167,6 +167,9 @@ img, svg, video, canvas, audio, iframe, embed, object {
     from {
         height: 100%;
     }
+    30% {
+        height: 130%;
+    }
     to {
         height: 0;
     }
